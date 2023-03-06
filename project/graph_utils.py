@@ -10,7 +10,7 @@ def get_graph_info(name):
     graph_info = (
         graph.number_of_nodes(),
         graph.number_of_edges(),
-        graph.edges(data=True)
+        graph.edges(data=True),
     )
 
     return graph_info
